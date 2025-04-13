@@ -5,56 +5,57 @@ Welcome to the MapReduce Data Processing with MRJob repository! This project sho
 This repository includes implementations of various MapReduce problems, covering text analysis, frequency calculations, social media analytics, and data aggregation.
 
 ## 🚀 Implemented Tasks
-Each problem is solved using MapReduce to optimize data processing:
+1. Word Count – Counting words while excluding specific stop words
 
-Word Count – Counting words while excluding specific stop words
+2. Character Frequency – Calculating frequency of each character in a text file
 
-Character Frequency – Calculating frequency of each character in a text file
+3. Longest Word Finder – Identifying the longest words in a dataset
 
-Longest Word Finder – Identifying the longest words in a dataset
+4. Tweet Count – Counting the number of tweets per user
 
-Tweet Count – Counting the number of tweets per user
+5. Average Word Length – Computing the mean length of words in a document
 
-Average Word Length – Computing the mean length of words in a document
+6. Hashtag Frequency – Analyzing hashtag occurrences in social media posts
 
-Hashtag Frequency – Analyzing hashtag occurrences in social media posts
+7. Most Frequent Words – Finding the most common words in a document
 
-Most Frequent Words – Finding the most common words in a document
+8. Product Sales Aggregation – Summing total product sales based on dataset
 
-Product Sales Aggregation – Summing total product sales based on dataset
-
-City Temperature Analysis – Calculating the average temperature per city
+9. City Temperature Analysis – Calculating the average temperature per city
 
 ## 📂 Files & Structure
 Each task includes:
 
-Python scripts implementing MRJob-based MapReduce solutions
+* Python scripts implementing MRJob-based MapReduce solutions
 
-Input text files containing sample data for processing
+* Input text files containing sample data for processing
 
-Output files with processed results
+* Output files with processed results
 
 🛠️ Technologies Used
-Python
+* Python
 
-MRJob
+* MRJob
 
-MapReduce Algorithm
+* MapReduce Algorithm
 
 ## 💡 How to Use
-Clone the repository:
+1. Clone the repository:
 
-sh
+'''sh
 git clone https://github.com/your-username/mapreduce-mrjob.git  
 cd mapreduce-mrjob
-Install MRJob:
+'''
+2. Install MRJob:
 
-sh
+'''sh
 pip install mrjob
-Run a specific MapReduce job:
+'''
+3. Run a specific MapReduce job:
 
-sh
+'''sh
 python word_count.py word_count.txt
+'''
 Replace word_count.py with the desired script and input file.
 
 ## 📢 Contributing
