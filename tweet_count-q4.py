@@ -17,7 +17,6 @@ bob This is amazing.
 class MRTweetCount(MRJob):
     def mapper(self, _, line):
         # Split the line into username and tweet
-        line = line.strip()
         username = None
         tweet = None
         # Check if the line is not empty and contains a space (indicating a username and tweet) 

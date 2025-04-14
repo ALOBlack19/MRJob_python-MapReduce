@@ -23,4 +23,7 @@ class MRCharFreq(MRJob):
     def reducer(self, char, counts):
         yield char, sum(counts)  # Sum the counts for each character
 
+if __name__ == '__main__': # Main function to run the MapReduce job
+    MRCharFreq.run()
+
 
