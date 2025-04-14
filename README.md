@@ -32,9 +32,12 @@ Each task includes:
    ```sh
    git clone https://github.com/your-username/mapreduce-mrjob.git  
    cd mapreduce-mrjob
-2. Install MRJob:
+2. Install Python 3.8 to 3.11 for the best balance of compatibility and support:
+   ```
+   https://www.python.org/downloads/
+3. Install requirements:
    ```sh
-   pip install mrjob
+   pip install -r requirements.txt
 4. Run a specific MapReduce job:
    ```sh
    python word_count.py word_count.txt
@@ -44,4 +47,4 @@ Each task includes:
 Contributions are welcome! Feel free to submit pull requests, suggest improvements, or discuss alternative approaches.
 
 ## 📬 Contact
-For any questions, feel free to reach out or open an issue. Let's collaborate on efficient data processing! 🚀
+For any questions, feel free to reach out or open an issue. Let's collaborate on the exercises! 🚀
