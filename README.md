@@ -32,7 +32,10 @@ Each task includes:
    ```sh
    git clone https://github.com/your-username/mapreduce-mrjob.git  
    cd mapreduce-mrjob
-2. Install MRJob:
+2. Install Python 3.8 to 3.11 for the best balance of compatibility and support:
+   ```sh
+   https://www.python.org/downloads/
+3. Install MRJob:
    ```sh
    pip install mrjob
 4. Run a specific MapReduce job:
