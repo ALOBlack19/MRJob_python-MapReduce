@@ -16,12 +16,6 @@ This repository includes implementations of various **MapReduce** problems, cove
 8. **Product Sales Aggregation** – Summing total product sales based on dataset  
 9. **City Temperature Analysis** – Calculating the average temperature per city  
 
-## 📂 Files & Structure
-Each task includes:
-- **Python scripts** implementing MRJob-based MapReduce solutions  
-- **Input text files** containing sample data for processing  
-- **Output files** with processed results  
-
 ## 🛠️ Technologies Used
 - **Python**  
 - **MRJob**  
