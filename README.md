@@ -30,6 +30,7 @@ This repository includes implementations of various **MapReduce** problems, cove
    ```
    https://www.python.org/downloads/
 3. Install requirements:
+
    ```sh
    pip install -r requirements.txt
 4. Run a specific MapReduce job:
