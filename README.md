@@ -16,12 +16,6 @@ This repository includes implementations of various **MapReduce** problems, cove
 8. **Product Sales Aggregation** – Summing total product sales based on dataset  
 9. **City Temperature Analysis** – Calculating the average temperature per city  
 
-## 📂 Files & Structure
-Each task includes:
-- **Python scripts** implementing MRJob-based MapReduce solutions  
-- **Input text files** containing sample data for processing  
-- **Output files** with processed results  
-
 ## 🛠️ Technologies Used
 - **Python**  
 - **MRJob**  
@@ -33,11 +27,12 @@ Each task includes:
    git clone https://github.com/your-username/mapreduce-mrjob.git  
    cd mapreduce-mrjob
 2. Install Python 3.8 to 3.11 for the best balance of compatibility and support:
-   ```sh
+   ```
    https://www.python.org/downloads/
-3. Install MRJob:
+3. Install requirements:
+
    ```sh
-   pip install mrjob
+   pip install -r requirements.txt
 4. Run a specific MapReduce job:
    ```sh
    python word_count.py word_count.txt
@@ -47,4 +42,4 @@ Each task includes:
 Contributions are welcome! Feel free to submit pull requests, suggest improvements, or discuss alternative approaches.
 
 ## 📬 Contact
-For any questions, feel free to reach out or open an issue. Let's collaborate on efficient data processing! 🚀
+For any questions, feel free to reach out or open an issue. Let's collaborate on the exercises! 🚀
